@@ -1,0 +1,57 @@
+/*=================================================
+||				6. Top place to visit
+==================================================*/
+.visit-item{
+	padding: 0px 15px;
+	transition: all .4s ease-in-out;
+	opacity: .6;
+}
+.visit-item:hover{
+	opacity: 1;
+}
+.visit .owl-theme .owl-controls .owl-nav [class*=owl-]{
+	background: #fff;
+    color: #A9CF46;
+	font-size: 25px;
+}
+/*Owl Carousel*/
+.owl-prev, .owl-next
+{
+    position: absolute;
+    top: 43%;
+    font-size: 22px;
+    padding: 5px;
+}
+.owl-next
+{
+    right: -40px;
+}
+.owl-prev
+{
+    left: -40px;
+}
+.owl-prev:before
+{
+    content: "\f3d2";
+    font-family: 'ionicons';
+    /*color: #fff;*/
+}
+.owl-next:before
+{
+    content: "\f3d3";
+    font-family: "ionicons";
+    /*color: #fff;*/
+}
+.section-title{
+    color: #313131;
+    text-align: center;
+}
+.section-subtitle{
+    color: #583b54;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.section-wrapper{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
